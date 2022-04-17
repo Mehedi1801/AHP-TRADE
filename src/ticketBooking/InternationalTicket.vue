@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fuld" style="background-color:gainsboro">
     <h1 class="fbg">International Ticket Booking Details</h1>
     <form action="/action_page.php" class="was-validated mb-4 mf">
       <div class="pfa">
@@ -276,8 +276,10 @@
   padding: 2%;
 }
 .mf {
+  margin: auto;
   margin-top: 2%;
-  background-color: rgba(74, 74, 78, 0.13);
+  width: 90%;
+  background-color: #f5ededde;
 }
 .pfa {
   padding: 3%;
