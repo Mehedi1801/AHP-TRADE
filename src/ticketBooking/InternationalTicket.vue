@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="background-color:white">
+  <div class="container">
     <h1 class="fbg">International Ticket Booking Details</h1>
     <form action="/action_page.php" class="was-validated mb-4 mf">
       <div class="pfa">
