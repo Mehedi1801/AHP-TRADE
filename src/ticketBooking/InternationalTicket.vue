@@ -4,7 +4,7 @@
     <form action="/action_page.php" class="was-validated mb-4 mf">
       <div class="pfa">
         <div>
-          <p>What type of a trip do you need?</p>
+          <p><b>What type of a trip do you need?</b></p>
           <div class="form-check">
             <input
               type="radio"
@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="mb-3">
-          <label for="fromCountry" class="form-label">From Country:</label>
+          <label for="fromCountry" class="form-label"><b>From Country:</b></label>
           <input
             type="text"
             class="form-control"
@@ -41,7 +41,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="ToCountry" class="form-label">To Counrty:</label>
+          <label for="ToCountry" class="form-label"><b>To Counrty:</b></label>
           <input
             type="text"
             class="form-control"
@@ -54,7 +54,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="dat" class="form-label">Date:</label>
+          <label for="dat" class="form-label"><b>Date:</b></label>
           <input
             type="date"
             class="form-control"
@@ -67,7 +67,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div>
-          <p>Choose your trip:</p>
+          <p><b>Title</b></p>
           <div class="form-check">
             <input
               type="radio"
@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="mb-3">
-          <label for="FirstName" class="form-label">First Name:</label>
+          <label for="FirstName" class="form-label"><b>First Name:</b></label>
           <input
             type="text"
             class="form-control"
@@ -114,7 +114,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="LastName" class="form-label">Last Name:</label>
+          <label for="LastName" class="form-label"><b>Last Name:</b></label>
           <input
             type="text"
             class="form-control"
@@ -127,7 +127,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div>
-          <p>Gender:</p>
+          <p><b>Gender:</b></p>
           <div class="form-check">
             <input
               type="radio"
@@ -161,7 +161,7 @@
           </div>
         </div>
         <div class="mb-3">
-          <label for="DateOfBirth" class="form-label">Date of Birth:</label>
+          <label for="DateOfBirth" class="form-label"><b>Date of Birth:</b></label>
           <input
             type="date"
             class="form-control"
@@ -174,7 +174,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="Nationality" class="form-label">Nationality:</label>
+          <label for="Nationality" class="form-label"><b>Nationality:</b></label>
           <input
             type="text"
             class="form-control"
@@ -187,7 +187,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="PassportNumber" class="form-label">Passport Number:</label>
+          <label for="PassportNumber" class="form-label"><b>Passport Number:</b></label>
           <input
             type="text"
             class="form-control"
@@ -200,7 +200,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="PassportIssueDate" class="form-label">Passport Issue Date:</label>
+          <label for="PassportIssueDate" class="form-label"><b>Passport Issue Date:</b></label>
           <input
             type="date"
             class="form-control"
@@ -213,7 +213,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="pwd" class="form-label">PassportExpireDate:</label>
+          <label for="pwd" class="form-label"><b>PassportExpireDate:</b></label>
           <input
             type="date"
             class="form-control"
@@ -226,7 +226,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="PhoneNumber" class="form-label">Phone Number:</label>
+          <label for="PhoneNumber" class="form-label"><b>Phone Number:</b></label>
           <input
             type="number"
             class="form-control"
@@ -239,7 +239,7 @@
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="ema" class="form-label">Email:</label>
+          <label for="ema" class="form-label"><b>Email:</b></label>
           <input
             type="email"
             class="form-control"
@@ -270,6 +270,15 @@
     </form>
   </div>
 </template>
+
+<script>
+export default {
+  data(){
+    return{
+    }
+  }
+}
+</script>
 <style scoped>
 .fbg {
   text-align: center;
@@ -279,9 +288,12 @@
   margin: auto;
   margin-top: 2%;
   width: 90%;
-  background-color: #f5ededde;
+  background-color: aliceblue;
 }
 .pfa {
   padding: 3%;
+}
+.tc{
+  color: aliceblue;
 }
 </style>
