@@ -23,7 +23,7 @@
                     <a class="nav-link" href="/">Home</a>
                   </li>
 
-                  <li class="nav-item dropdown">
+                  <!-- <li class="nav-item dropdown">
                     <a
                       href="#"
                       class="nav-link dropdown-toggle"
@@ -37,7 +37,7 @@
                       <li><a href="faq.html">Faq</a></li>
                       <li><a href="pricing.html">Pricing</a></li>
                     </ul>
-                  </li>
+                  </li> -->
 
                   <li class="nav-item dropdown">
                     <a
@@ -54,7 +54,7 @@
                         >
                       </li>
                       <li>
-                        <a href="projects-single.html">Domestic Air Ticket</a>
+                        <a href="domesticticket">Domestic Air Ticket</a>
                       </li>
                     </ul>
                   </li>
@@ -95,7 +95,7 @@
                           <li><a href="#!">Work Visa</a></li>
                           <li><a href="#!">Visit Visa</a></li>
                           <li><a href="#!">Business Visa</a></li>
-                          <li><a href="#!">Student Visa</a></li>
+                          <li><a href="#!">Student Visit Visa</a></li>
                         </ul>
                       </li>
                        <li class="dropdown-submenu">
@@ -103,7 +103,7 @@
                           href="#!"
                           class="dropdown-toggle"
                           data-toggle="dropdown"
-                          >UAE</a
+                          >UAE/Dubai</a
                         >
                         <ul class="dropdown-menu">
                           <li><a href="#!">Work Visa</a></li>
@@ -113,7 +113,6 @@
                       </li>
                       <li><a href="#">Qatar</a></li>
                       <li><a href="#">Oman</a></li>
-                      <li><a href="#">Dubai</a></li>
                     </ul>
                   </li>
 
@@ -125,8 +124,12 @@
                       >Man Power <i class="fa fa-angle-down"></i
                     ></a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="typography.html">Typography</a></li>
-                      <li><a href="404.html">404</a></li>
+                      <li><a href="#">Saudia Arab</a></li>
+                      <li><a href="#">Oman</a></li>
+                      <li><a href="#">kuwait</a></li>
+                      <li><a href="#">Qatar</a></li>
+                      <li><a href="#">UAE/Dubai</a></li>
+                      <li><a href="#">Bahrain</a></li>
                       <li class="dropdown-submenu">
                         <a
                           href="#!"
@@ -143,10 +146,10 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Umra</a>
+                    <a class="nav-link" href="#">Omrah</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Hazz</a>
+                    <a class="nav-link" href="#">Hajj</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
@@ -159,9 +162,9 @@
         </div>
         <!--/ Row end -->
 
-        <div class="nav-search">
+        <!-- <div class="nav-search">
           <span id="search"><i class="fa fa-search"></i></span>
-        </div>
+        </div> -->
         <!-- Search end -->
 
         <div class="search-block" style="display: none">

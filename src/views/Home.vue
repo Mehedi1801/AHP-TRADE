@@ -11,7 +11,7 @@
         <p class="card-text">
           <b
             >This is a wider card with supporting text below as a natural
-            lead-in to additional content. This a little bit
+            lead-in to additional content. This content is a little bit
             longer.</b
           >
         </p>
@@ -70,5 +70,8 @@
 }
 .cta1{
   text-align: center;
+}
+.card-img:hover{
+zoom: 30%;
 }
 </style>

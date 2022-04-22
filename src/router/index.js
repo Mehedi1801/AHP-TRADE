@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import InternationalTicket from '../ticketBooking/InternationalTicket'
+import DomesticTicket from '../ticketBooking/DomesticTicket'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/internationalticket',
     name: 'InternationalTicket',
     component: InternationalTicket
+  },
+  {
+    path: '/domesticticket',
+    name: 'DomesticTicket',
+    component: DomesticTicket
   }
 ]
 
